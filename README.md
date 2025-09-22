@@ -1,15 +1,12 @@
 
-````markdown
 # 🏨 Imperial Haven – Hotel Booking Website  
 
 A minimalistic yet elegant **hotel booking website** designed to deliver a smooth and luxurious user experience. The project includes an interactive booking form with validation, an about page, and a contact page.  
 
----
 
 ## 🌐 Live Demo  
 Check out the live version here: [Imperial Haven Website](https://imperialhaven.netlify.app/)
 
----
 
 ## ✨ Features  
 - **Homepage (`index.html`)** – Elegant introduction to the hotel.  
