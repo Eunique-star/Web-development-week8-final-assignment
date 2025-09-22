@@ -1,39 +1,45 @@
-🏨 Imperial Haven – Hotel Booking Website
 
-A minimalistic yet elegant hotel booking website designed to deliver a smooth and luxurious user experience. The project includes an interactive booking form with validation, an about page, and a contact page.
+````markdown
+# 🏨 Imperial Haven – Hotel Booking Website  
 
-✨ Features
+A minimalistic yet elegant **hotel booking website** designed to deliver a smooth and luxurious user experience. The project includes an interactive booking form with validation, an about page, and a contact page.  
 
-Homepage (index.html) – Elegant introduction to the hotel.
+---
 
-Booking Page (booking.html) – Interactive booking form with client-side validation (JavaScript).
+## ✨ Features  
+- **Homepage (`index.html`)** – Elegant introduction to the hotel.  
+- **Booking Page (`booking.html`)** – Interactive booking form with client-side validation.  
+- **About Page (`about.html`)** – Information about the hotel, mission, and team.  
+- **Contact Page (`contact.html`)** – Contact form for inquiries and support.  
+- **Responsive Design** – Styled with a clean, minimal CSS layout (`styles/styles.css`).  
+- **Form Validation** – Implemented in JavaScript (`script/script.js`).  
 
-About Page (about.html) – Information about the hotel, mission, and team.
+---
 
-Contact Page (contact.html) – Contact form for inquiries and support.
+## 🖥️ Tech Stack  
+- **HTML5** – Structure  
+- **CSS3** – Styling & layout  
+- **JavaScript (Vanilla)** – Form validation and interactivity  
 
-Responsive Design – Styled with a clean, minimal CSS layout (styles/styles.css).
+---
 
-Form Validation – Implemented in JavaScript (script/script.js).
+## 🚀 Getting Started  
 
-🖥️ Tech Stack
-
-HTML5 – Structure
-
-CSS3 – Styling & layout
-
-JavaScript (Vanilla) – Form validation and interactivity
-
-🚀 Getting Started
-1. Clone the repository
-git clone https://github.com/Eunique-star/Web-development-week8-final-assignment.git
+### 1. Clone the repository  
+```bash
+git clone https://github.com/your-username/imperial-haven.git
 cd imperial-haven
+````
 
-2. Open in browser
+### 2. Open in browser
 
-Simply open index.html in your preferred browser.
+Simply open `index.html` in your preferred browser.
 
-📂 Project Structure
+---
+
+## 📂 Project Structure
+
+```
 imperial-haven/
 ├── index.html          # Homepage
 ├── booking.html        # Booking form page
@@ -44,33 +50,35 @@ imperial-haven/
 ├── script/
 │   └── script.js       # JavaScript (form validation)
 └── images/             # Logo, hero, and room images
+```
 
-🧪 Form Validation
+---
 
-The booking form (booking.html) includes validation for:
+## 🧪 Form Validation
 
-Full name (required)
+The booking form (`booking.html`) includes validation for:
 
-Email (valid format)
-
-Phone number
-
-Check-in and check-out dates
-
-Number of rooms/guests
-
-Room type selection
+* Full name (required)
+* Email (valid format)
+* Phone number
+* Check-in and check-out dates
+* Number of rooms/guests
+* Room type selection
 
 Errors are displayed inline for better user experience.
 
-📬 Contact
+---
+
+## 📬 Contact
 
 For questions or contributions, feel free to reach out:
 
-📧 Email: info@imperialhaven.com
+* 📧 Email: **[info@imperialhaven.com](mailto:info@imperialhaven.com)**
+* 📞 Phone: **(123) 456-7890**
+* 🌍 Address: **123 Hotel St, City, Country**
 
-🌍 Website: coming soon
+---
 
-📝 License
+## 📝 License
 
-This project is licensed under the MIT License – free to use and modify.
+This project is licensed under the **MIT License** – free to use and modify.
