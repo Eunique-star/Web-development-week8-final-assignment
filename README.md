@@ -8,7 +8,7 @@ A minimalistic yet elegant **hotel booking website** designed to deliver a smoot
 
 ## 🔗 Live Demo
 
-https://imperialhaven.netlify.app/
+**[https://imperialhaven.netlify.app/]**
 
 ---
 
