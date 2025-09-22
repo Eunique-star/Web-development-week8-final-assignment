@@ -1,90 +1,76 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+🏨 Imperial Haven – Hotel Booking Website
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+A minimalistic yet elegant hotel booking website designed to deliver a smooth and luxurious user experience. The project includes an interactive booking form with validation, an about page, and a contact page.
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+✨ Features
 
----
+Homepage (index.html) – Elegant introduction to the hotel.
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
+Booking Page (booking.html) – Interactive booking form with client-side validation (JavaScript).
 
-Before you write any code, take time to plan:
+About Page (about.html) – Information about the hotel, mission, and team.
 
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
+Contact Page (contact.html) – Contact form for inquiries and support.
 
-**Goal:** Show intentional structure and user journey across the site.
+Responsive Design – Styled with a clean, minimal CSS layout (styles/styles.css).
 
----
+Form Validation – Implemented in JavaScript (script/script.js).
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+🖥️ Tech Stack
 
-Using your plan, begin building:
+HTML5 – Structure
 
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
+CSS3 – Styling & layout
 
-Each page should:
+JavaScript (Vanilla) – Form validation and interactivity
 
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
+🚀 Getting Started
+1. Clone the repository
+git clone https://github.com/Eunique-star/Web-development-week8-final-assignment.git
+cd imperial-haven
 
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+2. Open in browser
 
----
+Simply open index.html in your preferred browser.
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+📂 Project Structure
+imperial-haven/
+├── index.html          # Homepage
+├── booking.html        # Booking form page
+├── about.html          # About page
+├── contact.html        # Contact page
+├── styles/
+│   └── styles.css      # CSS styles
+├── script/
+│   └── script.js       # JavaScript (form validation)
+└── images/             # Logo, hero, and room images
 
-Before deployment, refactor your project to follow production-friendly practices:
+🧪 Form Validation
 
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
+The booking form (booking.html) includes validation for:
 
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
+Full name (required)
 
----
+Email (valid format)
 
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
+Phone number
 
-Once your project is complete, choose a method to **host your site online**.
+Check-in and check-out dates
 
-You can use:
+Number of rooms/guests
 
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
+Room type selection
 
-Deploy your project and confirm that:
+Errors are displayed inline for better user experience.
 
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
+📬 Contact
 
-**Goal:** Publish your work online and make it accessible to the world.
+For questions or contributions, feel free to reach out:
 
----
+📧 Email: info@imperialhaven.com
 
-## Deliverables
+🌍 Website: coming soon
 
-1. A GitHub repository containing:
+📝 License
 
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
-
----
-
-## Outcome
-
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+This project is licensed under the MIT License – free to use and modify.

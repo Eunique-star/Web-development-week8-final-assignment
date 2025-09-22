@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+      <nav>
+            <div class="logo">
+                <img src="images/hotel-logo.png" alt="Hotel Logo" width="150" height="120">
+                <h1>Imperial Haven</h1>
+            </div>
+           
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="booking.html">Bookings</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero">
+            <img src="images/hotel-hero.jpg" alt="hero image">
+            <div class="hero-text">
+                <h2>Contact Us</h2>
+                <p>We'd love to hear from you! Reach out with any questions or feedback.</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="contact-form">
+            <h2>Get in Touch</h2>
+            <form action="" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" class="inputField" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" class="inputField" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" class="inputField" required></textarea>
+
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Imperial Haven. All rights reserved. Eunice Ohilebo.</p>
+    </footer>
+    <script src="script/script.js"></script>
+</body>
+</html>
