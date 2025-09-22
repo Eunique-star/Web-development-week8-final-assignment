@@ -6,6 +6,12 @@ A minimalistic yet elegant **hotel booking website** designed to deliver a smoot
 
 ---
 
+## 🔗 Live Demo
+
+https://imperialhaven.netlify.app/
+
+---
+
 ## ✨ Features  
 - **Homepage (`index.html`)** – Elegant introduction to the hotel.  
 - **Booking Page (`booking.html`)** – Interactive booking form with client-side validation.  
